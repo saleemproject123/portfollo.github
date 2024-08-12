@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Return Form</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <header>
+        <h1>Material Return Request</h1>
+    </header>
+    <main>
+        <div class="container">
+            <form id="return-form">
+                <h2>Return Material</h2>
+                <label for="customer-name">Customer Name:</label>
+                <input type="text" id="customer-name" name="customer-name" required>
+
+                <label for="customer-email">Customer Email:</label>
+                <input type="email" id="customer-email" name="customer-email" required>
+
+                <label for="order-id">Order ID:</label>
+                <input type="text" id="order-id" name="order-id" required>
+
+                <label for="return-reason">Reason for Return:</label>
+                <textarea id="return-reason" name="return-reason" rows="4" required></textarea>
+
+                <button type="submit">Submit Return Request</button>
+                <p id="response-message"></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company</p>
+    </footer>
+    <script src="project1.js"></script>
+</body>
+</html>
